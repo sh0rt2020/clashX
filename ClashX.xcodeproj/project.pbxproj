@@ -64,7 +64,7 @@
 		49D176A72355FE680093DD7B /* NetworkChangeNotifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D176A62355FE680093DD7B /* NetworkChangeNotifier.swift */; };
 		49D176A9235614340093DD7B /* ProxyGroupSpeedTestMenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D176A8235614340093DD7B /* ProxyGroupSpeedTestMenuItem.swift */; };
 		49D176AB23575BB20093DD7B /* ProxyGroupMenuItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D176AA23575BB20093DD7B /* ProxyGroupMenuItemView.swift */; };
-		9E0E2F1481CB327D3753969D /* libPods-ClashX.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CAE7981A9F34B5E210C549CB /* libPods-ClashX.a */; };
+		75F696D93FFA64414EBEE49D /* libPods-ClashX.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 631325B11D718CE85D6AFDA4 /* libPods-ClashX.a */; };
 		F910AA24240134AF00116E95 /* ProxyGroupMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = F910AA23240134AF00116E95 /* ProxyGroupMenu.swift */; };
 		F915A4622366ADEF004840BE /* ClashConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = F915A4612366ADEF004840BE /* ClashConnection.swift */; };
 		F9203A26236342820020D57D /* AppDelegate+..swift in Sources */ = {isa = PBXBuildFile; fileRef = F9203A25236342820020D57D /* AppDelegate+..swift */; };
@@ -191,9 +191,9 @@
 		49D176A62355FE680093DD7B /* NetworkChangeNotifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkChangeNotifier.swift; sourceTree = "<group>"; };
 		49D176A8235614340093DD7B /* ProxyGroupSpeedTestMenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProxyGroupSpeedTestMenuItem.swift; sourceTree = "<group>"; };
 		49D176AA23575BB20093DD7B /* ProxyGroupMenuItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProxyGroupMenuItemView.swift; sourceTree = "<group>"; };
-		5217C006C5A22A1CEA24BFC1 /* Pods-ClashX.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClashX.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ClashX/Pods-ClashX.debug.xcconfig"; sourceTree = "<group>"; };
-		A1485BCE642059532D01B8BA /* Pods-ClashX.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClashX.release.xcconfig"; path = "Pods/Target Support Files/Pods-ClashX/Pods-ClashX.release.xcconfig"; sourceTree = "<group>"; };
-		CAE7981A9F34B5E210C549CB /* libPods-ClashX.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ClashX.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		631325B11D718CE85D6AFDA4 /* libPods-ClashX.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ClashX.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		73DBB22FFDB8336D2DF388FB /* Pods-ClashX.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClashX.debug.xcconfig"; path = "Target Support Files/Pods-ClashX/Pods-ClashX.debug.xcconfig"; sourceTree = "<group>"; };
+		E2F4EA99B7EC172F78A3AF4A /* Pods-ClashX.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClashX.release.xcconfig"; path = "Target Support Files/Pods-ClashX/Pods-ClashX.release.xcconfig"; sourceTree = "<group>"; };
 		F910AA23240134AF00116E95 /* ProxyGroupMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProxyGroupMenu.swift; sourceTree = "<group>"; };
 		F915A4612366ADEF004840BE /* ClashConnection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClashConnection.swift; sourceTree = "<group>"; };
 		F9203A25236342820020D57D /* AppDelegate+..swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppDelegate+..swift"; sourceTree = "<group>"; };
@@ -230,7 +230,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F9C180A3243C6590005EE8C4 /* goClash.a in Frameworks */,
-				9E0E2F1481CB327D3753969D /* libPods-ClashX.a in Frameworks */,
+				75F696D93FFA64414EBEE49D /* libPods-ClashX.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,8 +424,8 @@
 				49CF3B1F20CD7463001EBF94 /* ClashX */,
 				F9A7C06A2306E874007163C7 /* ProxyConfigHelper */,
 				49CF3B1E20CD7463001EBF94 /* Products */,
-				76229F122B00E935D126742A /* Pods */,
-				CF1AC9FACC36FCE7663C5583 /* Frameworks */,
+				848C4AC75880E5E59882887D /* Pods */,
+				BF9E6EFBE4D8E4A815572264 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -471,19 +471,19 @@
 			path = "Support Files";
 			sourceTree = "<group>";
 		};
-		76229F122B00E935D126742A /* Pods */ = {
+		848C4AC75880E5E59882887D /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				5217C006C5A22A1CEA24BFC1 /* Pods-ClashX.debug.xcconfig */,
-				A1485BCE642059532D01B8BA /* Pods-ClashX.release.xcconfig */,
+				73DBB22FFDB8336D2DF388FB /* Pods-ClashX.debug.xcconfig */,
+				E2F4EA99B7EC172F78A3AF4A /* Pods-ClashX.release.xcconfig */,
 			);
-			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
-		CF1AC9FACC36FCE7663C5583 /* Frameworks */ = {
+		BF9E6EFBE4D8E4A815572264 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				CAE7981A9F34B5E210C549CB /* libPods-ClashX.a */,
+				631325B11D718CE85D6AFDA4 /* libPods-ClashX.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -521,14 +521,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 49CF3B2D20CD7465001EBF94 /* Build configuration list for PBXNativeTarget "ClashX" */;
 			buildPhases = (
-				2FD76081F5FF64514C3E5C9D /* [CP] Check Pods Manifest.lock */,
+				E3A99226441F76635F776D30 /* [CP] Check Pods Manifest.lock */,
 				49CF3B1920CD7463001EBF94 /* Sources */,
 				49CF3B1A20CD7463001EBF94 /* Frameworks */,
 				49CF3B1B20CD7463001EBF94 /* Resources */,
-				A741C26F5755233F0D7CEC6F /* [CP] Embed Pods Frameworks */,
 				663E4677213FCDC4006F11BB /* Copy Files */,
 				494ED8F023EB0B36008D5D2F /* Run Script - Sparkle */,
-				318032FABBC2E552CB58B254 /* [CP] Copy Pods Resources */,
+				306E275D15BCC8DBDF840FD5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -624,25 +623,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		2FD76081F5FF64514C3E5C9D /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ClashX-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		318032FABBC2E552CB58B254 /* [CP] Copy Pods Resources */ = {
+		306E275D15BCC8DBDF840FD5 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -675,23 +656,28 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nLOCATION=\"${BUILT_PRODUCTS_DIR}\"/\"${FRAMEWORKS_FOLDER_PATH}\"\n\n# By default, use the configured code signing identity for the project/target\nIDENTITY=\"${CODE_SIGN_IDENTITY}\"\nif [ \"$IDENTITY\" == \"\" ]\nthen\n  # If a code signing identity is not specified, use ad hoc signing\n  IDENTITY=\"-\"\nfi\ncodesign --verbose --force --deep -o runtime --sign \"$IDENTITY\" \"$LOCATION/Sparkle.framework/Versions/A/Resources/AutoUpdate.app\"\ncodesign --verbose --force -o runtime --sign \"$IDENTITY\" \"$LOCATION/Sparkle.framework/Versions/A\"\n";
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n#LOCATION=\"${BUILT_PRODUCTS_DIR}\"/\"${FRAMEWORKS_FOLDER_PATH}\"\n\n# By default, use the configured code signing identity for the project/target\n#IDENTITY=\"${CODE_SIGN_IDENTITY}\"\n#if [ \"$IDENTITY\" == \"\" ]\n#then\n  # If a code signing identity is not specified, use ad hoc signing\n  #IDENTITY=\"-\"\n#fi\n#codesign --verbose --force --deep -o runtime --sign \"$IDENTITY\" \"$LOCATION/Sparkle.framework/Versions/A/Resources/AutoUpdate.app\"\n#codesign --verbose --force -o runtime --sign \"$IDENTITY\" \"$LOCATION/Sparkle.framework/Versions/A\"\n";
 		};
-		A741C26F5755233F0D7CEC6F /* [CP] Embed Pods Frameworks */ = {
+		E3A99226441F76635F776D30 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ClashX/Pods-ClashX-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			name = "[CP] Embed Pods Frameworks";
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ClashX/Pods-ClashX-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ClashX-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ClashX/Pods-ClashX-frameworks.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -928,18 +914,18 @@
 		};
 		49CF3B2E20CD7465001EBF94 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5217C006C5A22A1CEA24BFC1 /* Pods-ClashX.debug.xcconfig */;
+			baseConfigurationReference = 73DBB22FFDB8336D2DF388FB /* Pods-ClashX.debug.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = ClashX/ClashX.entitlements;
-				CODE_SIGN_IDENTITY = "Developer ID Application";
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
 				COMPRESS_PNG_FILES = YES;
 				CURRENT_PROJECT_VERSION = 1.65.1;
-				DEVELOPMENT_TEAM = MEWHFZ92DY;
+				DEVELOPMENT_TEAM = Z74R7F34HF;
 				ENABLE_HARDENED_RUNTIME = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -961,9 +947,9 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				MARKETING_VERSION = 1.65.1;
-				PRODUCT_BUNDLE_IDENTIFIER = com.west2online.ClashX;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jiliguala.ios.example.-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE_SPECIFIER = mannual_for_mac_development;
 				STRIP_INSTALLED_PRODUCT = NO;
 				STRIP_PNG_TEXT = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "ClashX/ClashX-Bridging-Header.h";
@@ -974,20 +960,20 @@
 		};
 		49CF3B2F20CD7465001EBF94 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A1485BCE642059532D01B8BA /* Pods-ClashX.release.xcconfig */;
+			baseConfigurationReference = E2F4EA99B7EC172F78A3AF4A /* Pods-ClashX.release.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = ClashX/ClashX.entitlements;
-				CODE_SIGN_IDENTITY = "Developer ID Application";
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
 				COMPRESS_PNG_FILES = YES;
 				COPY_PHASE_STRIP = YES;
 				CURRENT_PROJECT_VERSION = 1.65.1;
 				DEPLOYMENT_POSTPROCESSING = YES;
-				DEVELOPMENT_TEAM = MEWHFZ92DY;
+				DEVELOPMENT_TEAM = Z74R7F34HF;
 				ENABLE_HARDENED_RUNTIME = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1010,9 +996,9 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				MARKETING_VERSION = 1.65.1;
 				OTHER_CODE_SIGN_FLAGS = "--timestamp";
-				PRODUCT_BUNDLE_IDENTIFIER = com.west2online.ClashX;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jiliguala.ios.example.-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE_SPECIFIER = mannual_for_mac_development;
 				STRIP_INSTALLED_PRODUCT = YES;
 				STRIP_PNG_TEXT = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "ClashX/ClashX-Bridging-Header.h";

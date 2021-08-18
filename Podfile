@@ -16,6 +16,7 @@ post_install do |installer|
 end
 
 target 'ClashX' do
+  platform = :macos, '10.12'
   inhibit_all_warnings!
   use_modular_headers!
   pod 'LetsMove'
@@ -27,8 +28,9 @@ target 'ClashX' do
   pod 'WebViewJavascriptBridge'
   pod 'Starscream','3.1.1'
   pod 'AppCenter/Analytics'
-  pod 'Sparkle'
+  # pod 'Sparkle'
   pod "FlexibleDiff"
   pod 'GzipSwift'
+  # pod 'Reveal-SDK', :configurations => ['Debug']
 end
 
